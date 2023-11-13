@@ -1,0 +1,44 @@
+﻿  l201244 lab12.cpp
+C:\Users\Ms Links\Desktop\lab 12\lab 12\l201244 lab12.cpp(97,1): error C2679: binary '=': no operator found which takes a right-hand operand of type 'std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>' (or there is no acceptable conversion)
+          with
+          [
+              _Ty=Item
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\list(277,1): message : could be 'std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>> &std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>::operator =(std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>> &&)'
+          with
+          [
+              _Ty=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\list(277,1): message : or       'std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>> &std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>::operator =(const std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>> &)'
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Ms Links\Desktop\lab 12\lab 12\l201244 lab12.cpp(97,1): message : while trying to match the argument list '(std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>, std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>)'
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Ty=Item
+          ]
+C:\Users\Ms Links\Desktop\lab 12\lab 12\l201244 lab12.cpp(97,1): error C2679: binary '!=': no operator found which takes a right-hand operand of type 'std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>' (or there is no acceptable conversion)
+          with
+          [
+              _Ty=Item
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\list(205,21): message : could be 'bool std::_List_const_iterator<std::_List_val<std::_List_simple_types<_Ty>>>::operator !=(const std::_List_const_iterator<std::_List_val<std::_List_simple_types<_Ty>>> &) noexcept const'
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Ms Links\Desktop\lab 12\lab 12\l201244 lab12.cpp(97,1): message : while trying to match the argument list '(std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>, std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>)'
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Ty=Item
+          ]
