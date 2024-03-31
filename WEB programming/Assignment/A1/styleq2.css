@@ -1,0 +1,108 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+}
+
+.hero {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.categories {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.categories h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.categories ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.categories ul li {
+    margin: 10px;
+}
+
+.categories ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.categories ul li a:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+footer {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleq3.css">
+    <title>Job Application Form</title>
+</head>
+<body>
+    <header>
+        <h1>Job Application Form</h1>
+    </header>
+    <main>
+        <form id="jobApplicationForm">
+            <section class="flex">
+                <div class="half">
+                    <h2>Personal Information</h2>
+                    <div class="input-group">
+                        <label for="firstName">First Name:</label>
+                        <input type="text" id="firstName" name="firstName" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="lastName">Last Name:</label>
+                        <input type="text" id="lastName" name="lastName" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="phoneNumber">Phone Number:</label>
+                        <input type="tel" id="phoneNumber" name="phoneNumber" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="street">Street:</label>
+                        <input type="text" id="street" name="street" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="city">City:</label>
+                        <input type="text" id="city" name="city" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="state">State:</label>
+                        <input type="text" id="state" name="state" required>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h2>Resume and Cover Letter</h2>
+                <div class="input-group">
+                    <label for="resume">Upload Resume:</label>
+                    <input type="file" id="resume" name="resume" required>
+                </div>
+                <div class="input-group">
+                    <label for="coverLetter">Cover Letter:</label>
+                    <textarea id="coverLetter" name="coverLetter" required></textarea>
+                </div>
+            </section>
+            <section>
+                <h2>Education</h2>
+                <div class="input-group">
+                    <label for="education">Highest Level of Education Attained:</label>
+                    <input type="text" id="education" name="education" required>
+                </div>
+                <div class="input-group">
+                    <label for="graduationYear">Graduation Year:</label>
+                    <input type="text" id="graduationYear" name="graduationYear" required>
+                </div>
+                <div class="input-group">  
+                    <label for="schoolName">School Name:</label>
+                    <input type="text" id="schoolName" name="schoolName" required>
+                </div>
+            </section>
+            <section>
+                <h2>Employment History</h2>
+                <div class="input-group">
+                    <label for="jobTitles">Previous Job Titles:</label>
+                    <input type="text" id="jobTitles" name="jobTitles" required>
+                </div>
+                <div class="input-group">
+                    <label for="companyNames">Company Names:</label>
+                    <input type="text" id="companyNames" name="companyNames" required>
+                </div>
+                <div class="input-group">
+                    <label for="employmentDates">Employment Dates:</label>
+                    <input type="text" id="employmentDates" name="employmentDates" required>
+                </div>
+            </section>
+            <section>
+                <h2>Skills</h2>
+                <div class="input-group">  
+                    <label for="skills">Skills:</label>
+                    <input type="text" id="skills" name="skills" required>
+                </div>
+                <div class="input-group">
+                    <label for="certifications">Certifications:</label>
+                    <input type="text" id="certifications" name="certifications" required>
+                </div>
+            </section>
+            <section>
+                <h2>Availability</h2>
+                <div class="input-group">
+                    <label for="startDate">Start Date:</label>
+                    <input type="date" id="startDate" name="startDate" required>
+                </div>
+                <div class="input-group">
+                    <label for="relocate">Willingness to Relocate:</label>
+                    <input type="text" id="relocate" name="relocate" required>
+                </div>
+            </section>
+            <section>
+                <h2>References</h2>
+                <div class="input-group">
+                    <label for="references">References:</label>
+                    <input type="text" id="references" name="references" required>
+                </div>
+                <div class="input-group">
+                    <label for="referenceContact">Reference Contact:</label>
+                    <input type="text" id="referenceContact" name="referenceContact" required>
+                </div>
+                <div class="input-group">
+                    <label for="referenceEmail">Reference Email:</label>
+                    <input type="text" id="referenceEmail" name="referenceEmail" required>
+                </div>
+            </section>
+            <section>
+                <h2>Additional Information</h2>
+                <div class="input-group">
+                    <label for="additionalInfo">Why do you want to work for this company:</label>
+                    <textarea id="additionalInfo" name="additionalInfo" required></textarea>
+                </div>
+            </section>
+            <section>
+                <h2>Consent and Agreement</h2> 
+                <div class="input-group">
+                    <input type="checkbox" id="consent" name="consent" required>
+                    <label for="consent">I agree to the terms and conditions</label>
+                </div>
+            </section>
+            <button type="submit">Submit Application</button>
+        </form>
+    </main>
+    <button id="viewAsTableBtn">View Applications as Table</button>
+    <div id="applicationTable"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
